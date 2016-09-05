@@ -8,7 +8,12 @@ git clone git@github.com:efi-mk/SimpleChat.git && cd SimpleChat && npm install
 ```
 
 ```
-node index.js
+npm start
+```
+
+### Run tests
+```
+npm test
 ```
 
 

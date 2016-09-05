@@ -2,10 +2,16 @@
 	"name": "simpleChat",
 	"version": "0.0.1",
 	"description": "web chat boilerplate with Node.js and Socket.io",
+	"scripts": {
+    		"start": "node ./index.js",
+    		"test": "./node_modules/mocha/bin/mocha --reporter spec"
+  	},
 	"dependencies": {
 		"socket.io": "0.9.14",
 		"express": "3.2.4",
 		"jade": "0.30.0"
 	},
-	"author": "Donald Derek Haddad <ddh@mit.edu>"
+  	"devDependencies": {
+    		"mocha": "^3.0.2"
+  }
 }
