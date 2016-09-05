@@ -4,7 +4,7 @@
 #### Install & run
 
 ```
-git clone git@github.com:DonaldDerek/SimpleChat.git && cd SimpleChat && npm install
+git clone git@github.com:efi-mk/SimpleChat.git && cd SimpleChat && npm install
 ```
 
 ```
